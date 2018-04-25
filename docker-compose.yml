@@ -1,0 +1,4 @@
+vnc:
+  image: kaixhin/vnc
+  ports:
+    - "5901:5901"

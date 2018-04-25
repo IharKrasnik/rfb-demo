@@ -1,0 +1,17 @@
+{
+  "name": "pid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/execute.js",
+    "start-bg": "node ./src/executeBackground.js -o test-bg"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "rfb2": "^0.2.0"
+  }
+}
